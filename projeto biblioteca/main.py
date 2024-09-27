@@ -5,12 +5,10 @@ from datetime import datetime
 from tabulate import tabulate
 from datetime import datetime, timedelta
 
-
-# Conexão com MongoDB
 username = input("Digite seu username: ")
 password = input("Digite sua password: ")
 
-# Codificar username e senha
+
 encoded_username = quote_plus(username)
 encoded_password = quote_plus(password)
 
