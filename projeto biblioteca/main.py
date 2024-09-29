@@ -13,9 +13,9 @@ encoded_username = quote_plus(username)
 encoded_password = quote_plus(password)
 
 # URI para conexão com o MongoDB
-uri = "mongodb+srv://gabimafuze4:min09031993@cluster0.uz8iwno.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://"
 client = MongoClient(uri, server_api=ServerApi("1"))
-db = client['Cluster0']
+db = client['aaaaa']
 
 # Coleções
 livros_collection = db['livros']
